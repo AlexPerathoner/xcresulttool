@@ -111,6 +111,13 @@ async function run(): Promise<void> {
         output
       })
 
+      await octokit.issues.createComment({
+        owner,
+        repo,
+        issue_number: github.context.issue.number,
+        body: "output from coverage action"
+      });
+
       if (
         uploadBundles === 'always' ||
         (uploadBundles === 'failure' && report.testStatus === 'failure')

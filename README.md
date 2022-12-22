@@ -3,6 +3,8 @@
 </p>
 
 # xcresulttool GitHub Action
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FAlexPerathoner%2Fxcresulttool.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FAlexPerathoner%2Fxcresulttool?ref=badge_shield)
+
 
 A GitHub Action that generates a human-readable test report from the Xcode result bundle and shows it on GitHub Checks.
 
@@ -127,3 +129,7 @@ GitHub Checks has a maximum text limit of 65535 characters. Currently, any text 
 There is a limit of 50 annotations in GitHub Checks. Currently, any annotations longer than that will be automatically truncated.
 
 **You can set the `show-passed-tests` option to `false` to reduce the output to avoid the limitation.**
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FAlexPerathoner%2Fxcresulttool.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FAlexPerathoner%2Fxcresulttool?ref=badge_large)

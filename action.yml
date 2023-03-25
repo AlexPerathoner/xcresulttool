@@ -3,7 +3,7 @@ description: 'Generates a human-readable test report from the Xcode result bundl
 author: 'alexperathoner'
 inputs:
   path:
-    required: true
+    required: false
     description: 'Path to the xcresult bundle'
   token:
     description: 'The GitHub authentication token'

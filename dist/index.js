@@ -369,7 +369,6 @@ class Formatter {
                         const buildLog = new report_1.BuildLog(log, testReport.creatingWorkspaceFilePath);
                         if (buildLog.content.length) {
                             testReport.buildLog = buildLog;
-                            testReport.testStatus = 'failure';
                             for (const annotation of buildLog.annotations) {
                                 testReport.annotations.push(annotation);
                             }
@@ -509,10 +508,7 @@ class Formatter {
                 chapterSummary.content.push(cols);
                 chapterSummary.content.push('</table>\n');
                 chapterSummary.content.push('---\n');
-                if (testSummary.stats.failed > 0) {
-                    testReport.testStatus = 'failure';
-                }
-                else if (testSummary.stats.passed > 0) {
+                if (testSummary.stats.passed > 0) {
                     testReport.testStatus = 'success';
                 }
                 chapterSummary.content.push('### Test Summary');

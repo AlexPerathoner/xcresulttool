@@ -1,5 +1,5 @@
 {
-  "name": "xcresulttool",
+  "name": "xcresulttoolpera",
   "version": "1.7.0",
   "private": false,
   "description": "A GitHub Action that generates a human-readable test report from the Xcode result bundle and shows it on GitHub Checks.",

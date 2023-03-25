@@ -1,6 +1,6 @@
-name: 'xcresulttool-with-github-checks'
-description: 'aefeajf generates a human-readable test report from the Xcode result bundle and shows it on GitHub Checks.'
-author: 'alex perathoner'
+name: 'xcresulttoolChecks'
+description: 'Generates a human-readable test report from the Xcode result bundle and shows it on GitHub Checks, not influencing conclusion of status checks tho.'
+author: 'alexperathoner'
 inputs:
   path:
     required: true

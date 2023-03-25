@@ -1,6 +1,6 @@
 name: 'xcresulttool-with-github-checks'
-description: 'generates a human-readable test report from the Xcode result bundle and shows it on GitHub Checks.'
-author: 'kishikawa katsumi'
+description: 'aefeajf generates a human-readable test report from the Xcode result bundle and shows it on GitHub Checks.'
+author: 'alex perathoner'
 inputs:
   path:
     required: true

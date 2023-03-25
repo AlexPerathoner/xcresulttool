@@ -1,6 +1,6 @@
-name: 'xcresulttoolChecks'
-description: 'Generates a human-readable test report from the Xcode result bundle and shows it on GitHub Checks, not influencing conclusion of status checks tho.'
-author: 'alexperathoner'
+name: 'xcresulttool-with-comment'
+description: 'Generates a human-readable test report from the Xcode result bundle and comments it to the PR.'
+author: 'kishikawa katsumi'
 inputs:
   path:
     required: false
